@@ -9,14 +9,14 @@
 
    <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
-    <None Update="Practica.consumption.cs">
-      <DependentUpon>Practica.mbconfig</DependentUpon>
+    <None Update="practica.consumption.cs">
+      <DependentUpon>practica.mbconfig</DependentUpon>
     </None>
-    <None Update="Practica.training.cs">
-      <DependentUpon>Practica.mbconfig</DependentUpon>
+    <None Update="practica.training.cs">
+      <DependentUpon>practica.mbconfig</DependentUpon>
     </None>
-    <None Update="Practica.zip" CopyToOutputDirectory="PreserveNewest">
-      <DependentUpon>Practica.mbconfig</DependentUpon>
+    <None Update="practica.zip" CopyToOutputDirectory="PreserveNewest">
+      <DependentUpon>practica.mbconfig</DependentUpon>
     </None>
   </ItemGroup>
 
