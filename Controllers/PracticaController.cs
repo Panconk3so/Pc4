@@ -41,7 +41,7 @@ namespace Practica.Controllers
 
             ViewBag.Resultado = prediction.PredictedLabel;
 
-             return View("Views/practica/Evaluacion.cshtml");
+             return View("Views/Practica/Evaluacion.cshtml");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
